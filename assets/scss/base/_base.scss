@@ -1,0 +1,6 @@
+// elements globaux (h1 h2 p ul a)
+@use "../abstracts/variables" as variable;
+
+h1 {
+    color: variable.$secondary-color;
+}

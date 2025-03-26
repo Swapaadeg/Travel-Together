@@ -1,0 +1,5 @@
+@use "../abstracts/variables" as typo;
+
+body {
+   font-family: typo.$police-principale;
+}
