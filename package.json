@@ -7,8 +7,17 @@
   },
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "sass": "^1.86.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Swapaadeg/Travel-Together.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Swapaadeg/Travel-Together/issues"
+  },
+  "homepage": "https://github.com/Swapaadeg/Travel-Together#readme",
+  "description": ""
 }

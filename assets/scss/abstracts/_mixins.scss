@@ -1,0 +1,18 @@
+@use "../abstracts/variables" as variable;
+
+@mixin btn-primary {
+    padding: 10px 20px;
+    background-color: variable.$secondary-color;
+    color: variable.$primary-color;
+    border-radius: variable.$border-btn;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 2px variable.$primary-color;
+}
+
+@mixin banner {
+    background-color: variable.$tertiary-color;
+    border-radius: variable.$radius-border;
+    width: 100%;
+    display: flex;
+    gap: 15rem;
+}

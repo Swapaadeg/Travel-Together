@@ -1,0 +1,12 @@
+@use "../abstracts/variables" as variable;
+@use "../abstracts/mixins" as mixins;
+
+.hero__wrapper {
+        @include mixins.banner;
+    p {
+        color: variable.$secondary-color;
+    }
+    img {
+        width: 50%;
+    }
+}

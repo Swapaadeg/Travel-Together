@@ -2,12 +2,113 @@ h1 {
   color: #FFFFFF;
 }
 
+h3 {
+  color: #FFFFFF;
+}
+
+p {
+  margin-bottom: 4rem;
+}
+
+.first-child {
+  color: #000;
+}
+
+a {
+  text-decoration: none;
+  color: #c0c0c0;
+}
+
+ul {
+  list-style: none;
+}
+
 @font-face {
   font-family: "Lato";
   src: url(../fonts/Lato/Lato-Regular.ttf);
 }
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1.2rem;
+}
+
+.hero__wrapper {
+  background-color: #e7816b;
+  border-radius: 10px;
+  width: 100%;
+  display: flex;
+  gap: 15rem;
+}
+.hero__wrapper p {
+  color: #FFFFFF;
+}
+.hero__wrapper img {
+  width: 50%;
+}
+
+.btn-primary {
+  padding: 10px 20px;
+  background-color: #FFFFFF;
+  color: #000;
+  border-radius: 3px;
+  cursor: pointer;
+  box-shadow: 2px 2px 2px 2px #000;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.header__wrapper img {
+  width: 10%;
+  object-fit: contain;
+}
+.header__wrapper .nav {
+  display: flex;
+  gap: 1rem;
+}
+
 body {
   font-family: "Lato";
+}
+
+.hero__wrapper {
+  position: relative;
+}
+.hero__wrapper p {
+  color: #FFFFFF;
+}
+.hero__wrapper img {
+  width: 50%;
+  transform: translateY(18%);
+}
+.hero__wrapper .hero-content {
+  padding: 3rem 3rem 2rem 2rem;
+}
+
+.services__wrapper {
+  width: 100%;
+  display: flex;
+}
+.services__wrapper .service {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.services__wrapper .first-service {
+  background-color: #e7816b;
+  background-image: url(../../img/homme-assis-batiment.jpg);
+}
+.services__wrapper .servicesx2 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */

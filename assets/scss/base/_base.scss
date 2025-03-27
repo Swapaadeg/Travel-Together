@@ -4,3 +4,22 @@
 h1 {
     color: variable.$secondary-color;
 }
+h3 {
+    color: variable.$secondary-color;
+}
+p {
+    margin-bottom: 4rem;
+}
+
+.first-child {
+    color: variable.$primary-color;
+}
+
+a{
+    text-decoration: none;
+    color: variable.$fourth-color;
+}
+
+ul {
+    list-style: none;
+}

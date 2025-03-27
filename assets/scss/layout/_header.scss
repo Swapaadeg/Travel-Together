@@ -1,0 +1,12 @@
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    img {
+        width: 10%;
+        object-fit: contain;
+    }
+    .nav {
+        display: flex;
+        gap: 1rem;
+    }
+}
