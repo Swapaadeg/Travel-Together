@@ -1,5 +1,11 @@
 // elements globaux (h1 h2 p ul a)
+
+@use "../abstracts/variables" as typo;
 @use "../abstracts/variables" as variable;
+
+* {
+    box-sizing: border-box;
+}
 
 h1 {
     color: variable.$secondary-color;
@@ -26,4 +32,14 @@ a{
 
 ul {
     list-style: none;
+}
+
+body {
+   font-family: typo.$police-principale;
+}
+
+main {
+   background-image: url(../../assets/img/wave.svg);
+   background-position: bottom;
+   background-repeat: no-repeat;
 }

@@ -10,7 +10,7 @@
 
     .first-service {
         width: 50%;
-        padding: 8rem 0;
+        height: 50vh;
         background-image: url(../../assets/img/homme-assis-batiment.jpg);
     }
     .services-small {
@@ -20,11 +20,11 @@
 
         .second-service {
             background-image: url(../../assets/img/passport.jpg);
-            padding: 4rem 0;
+            height: 50%;
         }
         .third-service {
             background-image: url(../../assets/img/montgolfiere.jpg);
-            padding: 4rem 0;
+            height: 50%;
         }
     }
 }

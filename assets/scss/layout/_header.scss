@@ -1,3 +1,5 @@
+@use "../abstracts/variables" as variable;
+
 .header__wrapper {
     display: flex;
     justify-content: space-between;
@@ -5,8 +7,15 @@
         width: 10%;
         object-fit: contain;
     }
-    .nav {
+    .nav-links {
         display: flex;
         gap: 1rem;
     }
+}
+
+.hamburger {
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+    color: variable.$secondary-color;
 }
