@@ -6,6 +6,7 @@
         width: 100%;
         p {
         color: variable.$secondary-color;
+
     }
     img {
         width: 50%;
@@ -20,6 +21,8 @@
 .bloc__wrapper {
     @include mixins.banner;
     width: 100%;
+    position: relative;
+    z-index: 1;
     p {
         color: variable.$secondary-color;
     }

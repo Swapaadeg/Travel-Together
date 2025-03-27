@@ -68,6 +68,8 @@ ul {
   display: flex;
   gap: 15rem;
   width: 100%;
+  position: relative;
+  z-index: 1;
 }
 .bloc__wrapper p {
   color: #FFFFFF;
@@ -106,8 +108,9 @@ ul {
 .features__wrapper {
   width: 100%;
   margin-top: 4rem;
+  margin-bottom: 6rem;
   display: flex;
-  gap: 4rem;
+  gap: 12rem;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -143,6 +146,47 @@ ul {
   gap: 1rem;
 }
 
+footer {
+  background-color: #000;
+  position: absolute;
+  width: 100%;
+  transform: translateY(-8.5rem);
+  z-index: 0;
+}
+footer .footer__wrapper {
+  margin-top: 10rem;
+}
+footer .footer__wrapper .logo {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer__wrapper .logo img {
+  width: 15%;
+  object-fit: contain;
+}
+footer .footer__wrapper .logo .nav {
+  display: flex;
+  gap: 1rem;
+}
+footer .footer__wrapper p {
+  color: #FFFFFF;
+}
+
+.border {
+  margin-top: 6rem;
+  border: 1px solid #c0c0c0;
+}
+
+.contacts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contacts p {
+  margin: 0.3rem;
+}
+
 body {
   font-family: "Lato";
 }
@@ -150,12 +194,7 @@ body {
 main {
   background-image: url(../../assets/img/wave.svg);
   background-position: bottom;
-}
-
-.hero__wrapper img {
-  width: 50%;
-  clip-path: inset(0 0 20% 0);
-  transform: translateY(21%);
+  background-repeat: no-repeat;
 }
 
 .allservices {
