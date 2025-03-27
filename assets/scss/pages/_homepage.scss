@@ -14,27 +14,29 @@
 }
 }
 
-.services__wrapper {
+.allservices {
     width: 100%;
     display: flex;
-    
-    .service {
-        width: 50%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-    }
+    gap: 0.5rem;
+    padding: 0;
+
     .first-service {
-        background-color: variable.$tertiary-color;
-        background-image: url(../../img/homme-assis-batiment.jpg);
-}
-    
-    .servicesx2 {
         width: 50%;
-        display: flex;
+        padding: 8rem 0;
+        background-image: url(../../assets/img/homme-assis-batiment.jpg);
+    }
+    .services-small {
+        width: 50%;
         flex-direction: column;
-        justify-content: center;
-        text-align: center;
+        gap: 0.5rem;
+
+        .second-service {
+            background-image: url(../../assets/img/passport.jpg);
+            padding: 4rem 0;
+        }
+        .third-service {
+            background-image: url(../../assets/img/montgolfiere.jpg);
+            padding: 4rem 0;
+        }
     }
 }

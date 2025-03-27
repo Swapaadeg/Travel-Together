@@ -5,6 +5,7 @@
     background-color: variable.$secondary-color;
     color: variable.$primary-color;
     border-radius: variable.$border-btn;
+    text-transform: uppercase;
     cursor: pointer;
     box-shadow: 2px 2px 2px 2px variable.$primary-color;
 }

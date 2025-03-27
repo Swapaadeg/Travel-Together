@@ -4,8 +4,11 @@
 h1 {
     color: variable.$secondary-color;
 }
+
 h3 {
     color: variable.$secondary-color;
+    font-family: variable.$police-secondaire;
+    text-transform: uppercase;
 }
 p {
     margin-bottom: 4rem;
