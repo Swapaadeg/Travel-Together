@@ -9,7 +9,7 @@ h3 {
 }
 
 p {
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
   font-family: "Lato Thin";
 }
 
@@ -47,12 +47,37 @@ ul {
   width: 100%;
   display: flex;
   gap: 15rem;
+  width: 100%;
 }
 .hero__wrapper p {
   color: #FFFFFF;
 }
 .hero__wrapper img {
   width: 50%;
+  clip-path: inset(0 0 20% 0);
+  transform: translateY(21%);
+}
+.hero__wrapper .hero-content {
+  padding: 2rem 0 5rem 2rem;
+}
+
+.bloc__wrapper {
+  background-color: #e7816b;
+  border-radius: 10px;
+  width: 100%;
+  display: flex;
+  gap: 15rem;
+  width: 100%;
+}
+.bloc__wrapper p {
+  color: #FFFFFF;
+}
+.bloc__wrapper .bloc-content {
+  width: 50%;
+  padding: 2rem 0 5rem 2rem;
+}
+.bloc__wrapper a {
+  align-self: center;
 }
 
 .btn-primary {
@@ -127,18 +152,10 @@ main {
   background-position: bottom;
 }
 
-.hero__wrapper {
-  position: relative;
-}
-.hero__wrapper p {
-  color: #FFFFFF;
-}
 .hero__wrapper img {
   width: 50%;
-  transform: translateY(18%);
-}
-.hero__wrapper .hero-content {
-  padding: 3rem 3rem 2rem 2rem;
+  clip-path: inset(0 0 20% 0);
+  transform: translateY(21%);
 }
 
 .allservices {
