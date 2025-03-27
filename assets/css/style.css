@@ -32,6 +32,7 @@ ul {
 
 body {
   font-family: "Lato";
+  margin: 0;
 }
 
 main {
@@ -52,7 +53,7 @@ main {
   width: 100%;
   max-width: 1280px;
   margin: 0 auto;
-  padding: 0rem;
+  padding: 1rem;
 }
 
 .hero__wrapper {
@@ -169,6 +170,7 @@ main {
 
 footer {
   background-color: #000;
+  margin-right: auto;
   position: absolute;
   width: 100%;
   transform: translateY(-8.5rem);
@@ -248,35 +250,68 @@ footer .footer__wrapper p {
   .header__wrapper .nav-links a {
     color: #FFFFFF;
   }
-}
-.hero__wrapper {
-  display: block;
-}
-.hero__wrapper img {
-  display: none;
-}
-
-.allservices {
-  flex-direction: column;
-  height: 100vh;
-}
-.allservices .first-service {
-  width: 100%;
-  height: 50%;
-}
-.allservices .services-small {
-  width: 100%;
-  height: 100%;
-}
-
-.features {
-  text-align: center;
-}
-
-.features__wrapper {
-  flex-direction: column;
-  gap: 4rem;
-  padding: 2rem;
+  .hero__wrapper {
+    display: block;
+  }
+  .hero__wrapper img {
+    display: none;
+  }
+  .allservices {
+    flex-direction: column;
+    height: 100vh;
+  }
+  .allservices .first-service {
+    width: 100%;
+    height: 50%;
+  }
+  .allservices .services-small {
+    width: 100%;
+    height: 100%;
+  }
+  .features {
+    text-align: center;
+  }
+  .features__wrapper {
+    flex-direction: column;
+    gap: 4rem;
+    padding: 2rem;
+  }
+  .bloc__wrapper {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    position: relative;
+  }
+  .bloc__wrapper a {
+    position: absolute;
+    transform: translateY(7rem);
+  }
+  footer .footer__wrapper {
+    width: 100%;
+  }
+  footer .footer__wrapper .logo {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  footer .footer__wrapper .logo img {
+    width: 50%;
+  }
+  footer .footer__wrapper .logo .nav-links {
+    flex-direction: column;
+  }
+  footer .border {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  footer .contacts {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
