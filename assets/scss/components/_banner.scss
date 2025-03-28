@@ -24,6 +24,9 @@
     margin-bottom: -8rem;
     z-index: 1;
     position: relative;
+    h3 {
+        text-transform: none;
+    }
     p {
         color: variable.$secondary-color;
     }

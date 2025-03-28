@@ -1,6 +1,4 @@
 // elements globaux (h1 h2 p ul a)
-
-@use "../abstracts/variables" as typo;
 @use "../abstracts/variables" as variable;
 
 * {
@@ -8,29 +6,34 @@
 }
 
 body {
-   font-family: typo.$police-principale;
+   font-family: variable.$police-principale;
    margin: 0;
-}
-
-main {
-   background-image: url(../../assets/img/wave.svg);
-   background-position: bottom;
-   background-size: 130%;
-   background-repeat: no-repeat;
 }
 
 h1 {
     color: variable.$secondary-color;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+h2 {
+    color: variable.$primary-color;
+    font-weight: 600;
+    font-size: 1.5rem;
 }
 
 h3 {
     color: variable.$secondary-color;
-    font-family: variable.$police-secondaire;
     text-transform: uppercase;
+    font-weight: normal;
+    font-size: 1.5rem;
 }
+
 p {
     margin-bottom: 2rem;
     font-family: variable.$police-secondaire;
+    font-weight: 500;
+    font-size: 1rem;
 }
 
 .first-child {
@@ -40,6 +43,7 @@ p {
 a{
     text-decoration: none;
     color: variable.$fourth-color;
+    font-size: 0.8rem;
 }
 
 ul {

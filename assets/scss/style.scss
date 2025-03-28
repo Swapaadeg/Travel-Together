@@ -1,13 +1,24 @@
+// IMPORT ABSTRACTS SCSS
 @use "abstracts/variables";
 @use "abstracts/mixins";
+
+// IMPORT BASE SCSS
 @use "base/base";
 @use "base/font-face";
 @use "base/utilities";
+
+// IMPORT COMPONENTS SCSS
 @use "components/banner";
 @use "components/button";
 @use "components/card";
 @use "components/overlay";
+
+// IMPORT HEADER & FOOTER SCSS
 @use "layout/header";
 @use "layout/footer";
+
+// IMPORT PAGES SCSS
 @use "pages/homepage";
-@use "base/responsive"
+
+// IMPORT RESPONSIVE SCSS
+@use "base/responsive";

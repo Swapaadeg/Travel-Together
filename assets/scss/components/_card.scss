@@ -1,30 +1,40 @@
 @use "../abstracts/variables" as variable;
 
-.service {
-    width: 100%;
-    background-position-y: center;
-    border-radius: variable.$radius-border;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    position: relative;
-    overflow: auto;
+.services__wrapper {
+    .allservices {
+        width: 100%;
+        display: flex;
+        gap: 0.5rem;
+        .first-service {
+            height: 50vh;
+            background-image: url(../../assets/img/homme-assis-batiment.jpg);
+        }
+        .services-small {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+
+            .second-service {
+                background-image: url(../../assets/img/passport.jpg);
+                height: 50%;
+            }
+            .third-service {
+                background-image: url(../../assets/img/montgolfiere.jpg);
+                height: 50%;
+            }
+        }
+    }
 }
 
 .features__wrapper {
-    width: 100%;
     padding: 0;
-    margin-top: 4rem;
-    margin-bottom: 6rem;
+    width: 100%;
+    margin-bottom: 4rem;
     display: flex;
-    gap: 12rem;
+    gap: 8rem;
     align-items: center;
     justify-content: center;
     text-align: center;
 }
 
-.features {
-    text-align: end;
-    padding: 0;
-}

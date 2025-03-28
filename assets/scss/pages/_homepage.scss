@@ -1,33 +1,29 @@
 @use "../abstracts/variables" as variable;
-@use "../abstracts/mixins" as mixins;
 
-.services__wrapper {
-    padding: 0;
 
-    .allservices {
-        width: 100%;
-        display: flex;
-        gap: 0.5rem;
-
-        .first-service {
-            height: 50vh;
-            background-image: url(../../assets/img/homme-assis-batiment.jpg);
-        }
-        .services-small {
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-            gap: 0.5rem;
-
-            .second-service {
-                background-image: url(../../assets/img/passport.jpg);
-                height: 50%;
-            }
-            .third-service {
-                background-image: url(../../assets/img/montgolfiere.jpg);
-                height: 50%;
-            }
-        }
-    }
+.service {
+    width: 100%;
+    background-position-y: center;
+    background-size: cover;
+    border-radius: variable.$radius-border;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    overflow: auto;
 }
 
+.features-title {
+    text-align: end;
+}
+
+.feature {
+    width: 20%;
+}
+
+.background {
+    background-image: url(../../assets/img/wave.svg);
+    background-repeat: no-repeat;
+    background-position: 0 80%;
+}
