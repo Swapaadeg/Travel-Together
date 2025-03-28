@@ -1,7 +1,13 @@
+@use "../abstracts/variables" as variable;
+
 .container {
     width: 100%;
     max-width: 1280px;
     margin: 0 auto;
     padding: 1rem;
+}
+
+.arrow {
+    color: variable.$tertiary-color;
 }
 

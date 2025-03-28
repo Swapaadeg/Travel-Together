@@ -7,6 +7,18 @@
     box-sizing: border-box;
 }
 
+body {
+   font-family: typo.$police-principale;
+   margin: 0;
+}
+
+main {
+   background-image: url(../../assets/img/wave.svg);
+   background-position: bottom;
+   background-size: 130%;
+   background-repeat: no-repeat;
+}
+
 h1 {
     color: variable.$secondary-color;
 }
@@ -34,13 +46,4 @@ ul {
     list-style: none;
 }
 
-body {
-   font-family: typo.$police-principale;
-   margin: 0;
-}
 
-main {
-   background-image: url(../../assets/img/wave.svg);
-   background-position: bottom;
-   background-repeat: no-repeat;
-}

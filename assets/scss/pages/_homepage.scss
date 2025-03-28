@@ -1,32 +1,33 @@
 @use "../abstracts/variables" as variable;
 @use "../abstracts/mixins" as mixins;
 
-
-.allservices {
-    width: 100%;
-    display: flex;
-    gap: 0.5rem;
+.services__wrapper {
     padding: 0;
 
-    .first-service {
-        width: 50%;
-        height: 50vh;
-        background-image: url(../../assets/img/homme-assis-batiment.jpg);
-    }
-    .services-small {
-        width: 50%;
-        flex-direction: column;
+    .allservices {
+        width: 100%;
+        display: flex;
         gap: 0.5rem;
 
-        .second-service {
-            background-image: url(../../assets/img/passport.jpg);
-            height: 50%;
+        .first-service {
+            height: 50vh;
+            background-image: url(../../assets/img/homme-assis-batiment.jpg);
         }
-        .third-service {
-            background-image: url(../../assets/img/montgolfiere.jpg);
-            height: 50%;
+        .services-small {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+
+            .second-service {
+                background-image: url(../../assets/img/passport.jpg);
+                height: 50%;
+            }
+            .third-service {
+                background-image: url(../../assets/img/montgolfiere.jpg);
+                height: 50%;
+            }
         }
     }
 }
-
 
