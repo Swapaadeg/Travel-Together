@@ -22,6 +22,9 @@
     img {
         display: none;
     }
+    .hero-content {
+        padding: 2rem;
+    }
 }
 
 .allservices {
@@ -43,6 +46,7 @@
     flex-direction: column;
     gap: 4rem;
     padding: 2rem;
+    margin-bottom: 0;
 }
 
 .bloc__wrapper {
@@ -55,7 +59,10 @@
 
     a {
         position: absolute;
-        transform: translateY(7rem);
+        transform: translateY(8rem);
+    }
+    .bloc-content {
+        padding: 2rem 2rem 5rem 2rem;
     }
 }
 footer {
@@ -70,6 +77,8 @@ footer {
             }
             .nav-links {
                 flex-direction: column;
+                text-align: center;
+                padding: 0;
             }
     }
 }
@@ -83,6 +92,9 @@ footer {
         align-items: center;
         text-align: center;
         gap: 2rem;
+        p {
+           margin: 0; 
+        }
     }
 }
 }

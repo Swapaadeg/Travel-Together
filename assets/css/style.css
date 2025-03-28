@@ -256,6 +256,9 @@ footer .footer__wrapper p {
   .hero__wrapper img {
     display: none;
   }
+  .hero__wrapper .hero-content {
+    padding: 2rem;
+  }
   .allservices {
     flex-direction: column;
     height: 100vh;
@@ -275,6 +278,7 @@ footer .footer__wrapper p {
     flex-direction: column;
     gap: 4rem;
     padding: 2rem;
+    margin-bottom: 0;
   }
   .bloc__wrapper {
     flex-direction: column;
@@ -286,7 +290,10 @@ footer .footer__wrapper p {
   }
   .bloc__wrapper a {
     position: absolute;
-    transform: translateY(7rem);
+    transform: translateY(8rem);
+  }
+  .bloc__wrapper .bloc-content {
+    padding: 2rem 2rem 5rem 2rem;
   }
   footer .footer__wrapper {
     width: 100%;
@@ -301,6 +308,8 @@ footer .footer__wrapper p {
   }
   footer .footer__wrapper .logo .nav-links {
     flex-direction: column;
+    text-align: center;
+    padding: 0;
   }
   footer .border {
     margin-top: 2rem;
@@ -311,6 +320,9 @@ footer .footer__wrapper p {
     align-items: center;
     text-align: center;
     gap: 2rem;
+  }
+  footer .contacts p {
+    margin: 0;
   }
 }
 
