@@ -1,5 +1,12 @@
 @use "../abstracts/mixins" as mixins;
+@use "../abstracts/variables" as variable;
 
 .btn-primary {
     @include mixins.btn-primary;
+}
+
+.btn-primary:hover {
+    color: variable.$secondary-color;
+    background-color: variable.$primary-color-oppacity;
+    transition: 0.2s;
 }

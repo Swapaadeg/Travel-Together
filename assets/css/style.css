@@ -107,6 +107,12 @@ main {
   box-shadow: 2px 2px 2px 2px #000;
 }
 
+.btn-primary:hover {
+  color: #FFFFFF;
+  background-color: rgba(0, 0, 0, 0.2862745098);
+  transition: 0.2s;
+}
+
 .service {
   width: 100%;
   background-size: cover;
