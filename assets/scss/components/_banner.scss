@@ -21,8 +21,9 @@
 .bloc__wrapper {
     @include mixins.banner;
     width: 100%;
-    position: relative;
+    margin-bottom: -8rem;
     z-index: 1;
+    position: relative;
     p {
         color: variable.$secondary-color;
     }

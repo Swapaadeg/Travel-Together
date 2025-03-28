@@ -83,8 +83,9 @@ main {
   display: flex;
   gap: 15rem;
   width: 100%;
-  position: relative;
+  margin-bottom: -8rem;
   z-index: 1;
+  position: relative;
 }
 .bloc__wrapper p {
   color: #FFFFFF;
@@ -177,13 +178,12 @@ main {
 footer {
   background-color: #000;
   margin-right: auto;
-  position: absolute;
   width: 100%;
-  transform: translateY(-8.5rem);
-  z-index: 0;
+  padding-top: 8rem;
+  z-index: -1;
 }
 footer .footer__wrapper {
-  margin-top: 10rem;
+  margin-top: 2rem;
 }
 footer .footer__wrapper .logo {
   width: 100%;

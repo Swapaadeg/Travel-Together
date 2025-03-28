@@ -3,12 +3,11 @@
 footer {
     background-color: variable.$primary-color;
     margin-right: auto;
-    position: absolute;
     width: 100%;
-    transform: translateY(-8.5rem);
-    z-index: 0;
+    padding-top: 8rem;
+    z-index: -1;
     .footer__wrapper {
-        margin-top: 10rem;
+        margin-top: 2rem;
         .logo {
             width: 100%;
             display: flex;
