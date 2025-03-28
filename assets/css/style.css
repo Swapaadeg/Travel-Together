@@ -58,8 +58,8 @@ ul {
 .container {
   width: 100%;
   max-width: 1280px;
-  margin: 0 auto;
-  padding: 1rem;
+  margin: auto;
+  padding: 0 20px;
 }
 
 .arrow {
@@ -69,10 +69,8 @@ ul {
 .hero__wrapper {
   background-color: #e7816b;
   border-radius: 10px;
-  width: 100%;
   display: flex;
   gap: 15rem;
-  width: 100%;
   overflow: hidden;
 }
 .hero__wrapper p {
@@ -89,7 +87,6 @@ ul {
 .bloc__wrapper {
   background-color: #e7816b;
   border-radius: 10px;
-  width: 100%;
   display: flex;
   gap: 15rem;
   width: 100%;
@@ -264,9 +261,6 @@ footer .footer__wrapper p {
 }
 
 @media screen and (max-width: 768px) {
-  .container {
-    padding: 1rem;
-  }
   .header__wrapper {
     flex-direction: column;
     align-items: center;

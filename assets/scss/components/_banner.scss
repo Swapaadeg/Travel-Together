@@ -3,11 +3,9 @@
 
 .hero__wrapper {
         @include mixins.banner;
-        width: 100%;
         overflow: hidden;
         p {
         color: variable.$secondary-color;
-
     }
     img {
         width: 50%;
