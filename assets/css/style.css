@@ -259,15 +259,18 @@ footer .footer__wrapper p {
   .hero__wrapper .hero-content {
     padding: 2rem;
   }
-  .allservices {
+  .services__wrapper {
+    text-align: center;
+  }
+  .services__wrapper .allservices {
     flex-direction: column;
     height: 100vh;
   }
-  .allservices .first-service {
+  .services__wrapper .allservices .first-service {
     width: 100%;
     height: 50%;
   }
-  .allservices .services-small {
+  .services__wrapper .allservices .services-small {
     width: 100%;
     height: 100%;
   }
@@ -276,9 +279,9 @@ footer .footer__wrapper p {
   }
   .features__wrapper {
     flex-direction: column;
-    gap: 4rem;
+    gap: 2rem;
     padding: 2rem;
-    margin-bottom: 0;
+    margin: 0;
   }
   .bloc__wrapper {
     flex-direction: column;
